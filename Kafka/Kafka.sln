@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{69B07025-5D3D-42ED-8EC9-DEBBCB195D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{A946F8A1-85E5-4781-8D79-68F8B7380E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumer", "KafkaConsumer\KafkaConsumer.csproj", "{30A7374A-66E2-41AB-837A-60846979FD6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B07025-5D3D-42ED-8EC9-DEBBCB195D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B07025-5D3D-42ED-8EC9-DEBBCB195D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B07025-5D3D-42ED-8EC9-DEBBCB195D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B07025-5D3D-42ED-8EC9-DEBBCB195D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A946F8A1-85E5-4781-8D79-68F8B7380E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A946F8A1-85E5-4781-8D79-68F8B7380E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A946F8A1-85E5-4781-8D79-68F8B7380E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A946F8A1-85E5-4781-8D79-68F8B7380E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A7374A-66E2-41AB-837A-60846979FD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A7374A-66E2-41AB-837A-60846979FD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A7374A-66E2-41AB-837A-60846979FD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A7374A-66E2-41AB-837A-60846979FD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pClbnZUHTiI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\S\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.201\\microsoft.net.sdk.compilers.toolset.9.0.201.nupkg.sha512"
+  ],
+  "logs": []
+}
