@@ -30,6 +30,7 @@ services:
       KAFKA_LOG_DIRS: "/tmp/kraft-combined-logs"
     volumes:
       - kafka-data:/tmp/kraft-combined-logs
-
+    user: "root"
+    
 volumes:
   kafka-data:
