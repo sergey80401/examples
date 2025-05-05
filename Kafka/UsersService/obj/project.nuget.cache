@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "xubuOHcAtYY=",
+  "success": true,
+  "projectFilePath": "D:\\repos\\examples\\Kafka\\UsersService\\UsersService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\confluent.kafka\\2.10.0\\confluent.kafka.2.10.0.nupkg.sha512",
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\librdkafka.redist\\2.10.0\\librdkafka.redist.2.10.0.nupkg.sha512",
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.4\\microsoft.extensions.configuration.9.0.4.nupkg.sha512",
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.4\\microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.4\\microsoft.extensions.configuration.binder.9.0.4.nupkg.sha512",
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\9.0.4\\microsoft.extensions.configuration.environmentvariables.9.0.4.nupkg.sha512",
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.4\\microsoft.extensions.primitives.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

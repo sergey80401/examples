@@ -1,0 +1,12 @@
+D:\repos\examples\Kafka\Options\bin\Debug\net9.0\Options.deps.json
+D:\repos\examples\Kafka\Options\bin\Debug\net9.0\Options.dll
+D:\repos\examples\Kafka\Options\bin\Debug\net9.0\Options.pdb
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\Options.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\Options.AssemblyInfoInputs.cache
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\Options.AssemblyInfo.cs
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\Options.csproj.CoreCompileInputs.cache
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\Options.sourcelink.json
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\Options.dll
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\refint\Options.dll
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\Options.pdb
+D:\repos\examples\Kafka\Options\obj\Debug\net9.0\ref\Options.dll
