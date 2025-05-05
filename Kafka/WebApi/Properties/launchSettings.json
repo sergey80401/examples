@@ -16,7 +16,10 @@
       "launchBrowser": false,
       "applicationUrl": "https://localhost:7066;http://localhost:5142",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "KafkaProducerOptions__BootstrapServers": "localhost:9092",
+        "KafkaProducerOptions__ClientId": "users_producer",
+        "KafkaProducerOptions__Topic": "users_topic"
       }
     }
   }

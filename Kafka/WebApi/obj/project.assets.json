@@ -131,6 +131,16 @@
         "runtime": {
           "bin/placeholder/Models.dll": {}
         }
+      },
+      "Options/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Options.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Options.dll": {}
+        }
       }
     }
   },
@@ -207,28 +217,36 @@
       "type": "project",
       "path": "../Models/Models.csproj",
       "msbuildProject": "../Models/Models.csproj"
+    },
+    "Options/1.0.0": {
+      "type": "project",
+      "path": "../Options/Options.csproj",
+      "msbuildProject": "../Options/Options.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Confluent.Kafka >= 2.10.0",
-      "Models >= 1.0.0"
+      "Models >= 1.0.0",
+      "Options >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\S\\.nuget\\packages\\": {}
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\repos\\examples\\Kafka\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\S\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\WebApi\\obj\\",
+      "projectPath": "D:\\repos\\examples\\Kafka\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\skryuchkov\\.nuget\\packages\\",
+      "outputPath": "D:\\repos\\examples\\Kafka\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\S\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\skryuchkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -240,8 +258,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\Models\\Models.csproj"
+            "D:\\repos\\examples\\Kafka\\Models\\Models.csproj": {
+              "projectPath": "D:\\repos\\examples\\Kafka\\Models\\Models.csproj"
+            },
+            "D:\\repos\\examples\\Kafka\\Options\\Options.csproj": {
+              "projectPath": "D:\\repos\\examples\\Kafka\\Options\\Options.csproj"
             }
           }
         }
@@ -254,7 +275,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.200"
     },
@@ -278,12 +299,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.201, 9.0.201]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -292,7 +307,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

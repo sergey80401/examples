@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "p5fmAB3RPgc=",
+  "dgSpecHash": "fRzfyfn1RT8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\repos\\examples\\Kafka\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\S\\.nuget\\packages\\confluent.kafka\\2.10.0\\confluent.kafka.2.10.0.nupkg.sha512",
-    "C:\\Users\\S\\.nuget\\packages\\librdkafka.redist\\2.10.0\\librdkafka.redist.2.10.0.nupkg.sha512",
-    "C:\\Users\\S\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.201\\microsoft.net.sdk.compilers.toolset.9.0.201.nupkg.sha512"
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\confluent.kafka\\2.10.0\\confluent.kafka.2.10.0.nupkg.sha512",
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\librdkafka.redist\\2.10.0\\librdkafka.redist.2.10.0.nupkg.sha512"
   ],
   "logs": []
 }

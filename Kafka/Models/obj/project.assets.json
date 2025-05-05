@@ -8,19 +8,21 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\S\\.nuget\\packages\\": {}
+    "C:\\Users\\skryuchkov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\repos\\examples\\Kafka\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\S\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S\\Desktop\\repositories\\examples\\Kafka\\Models\\obj\\",
+      "projectPath": "D:\\repos\\examples\\Kafka\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\skryuchkov\\.nuget\\packages\\",
+      "outputPath": "D:\\repos\\examples\\Kafka\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\S\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\skryuchkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -42,7 +44,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.200"
     },
@@ -60,18 +62,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.201, 9.0.201]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
